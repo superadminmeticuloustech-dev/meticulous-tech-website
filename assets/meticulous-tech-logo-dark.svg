@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" width="1536" height="1024">
+  <rect width="1536" height="1024" fill="#123524"/>
+  <g transform="translate(290,525)">
+    <g>
+      <!-- long rays -->
+      <g fill="#22E3B6">
+        <rect x="-8" y="-180" width="16" height="180" rx="8"/>
+        <rect x="-8" y="-180" width="16" height="180" rx="8" transform="rotate(45)"/>
+        <rect x="-8" y="-180" width="16" height="180" rx="8" transform="rotate(90)"/>
+        <rect x="-8" y="-180" width="16" height="180" rx="8" transform="rotate(135)"/>
+        <rect x="-8" y="-180" width="16" height="180" rx="8" transform="rotate(180)"/>
+        <rect x="-8" y="-180" width="16" height="180" rx="8" transform="rotate(225)"/>
+        <rect x="-8" y="-180" width="16" height="180" rx="8" transform="rotate(270)"/>
+        <rect x="-8" y="-180" width="16" height="180" rx="8" transform="rotate(315)"/>
+      </g>
+      <!-- short rays -->
+      <g fill="#12CFA5">
+        <rect x="-6" y="-125" width="12" height="125" rx="6" transform="rotate(22.5)"/>
+        <rect x="-6" y="-125" width="12" height="125" rx="6" transform="rotate(67.5)"/>
+        <rect x="-6" y="-125" width="12" height="125" rx="6" transform="rotate(112.5)"/>
+        <rect x="-6" y="-125" width="12" height="125" rx="6" transform="rotate(157.5)"/>
+        <rect x="-6" y="-125" width="12" height="125" rx="6" transform="rotate(202.5)"/>
+        <rect x="-6" y="-125" width="12" height="125" rx="6" transform="rotate(247.5)"/>
+        <rect x="-6" y="-125" width="12" height="125" rx="6" transform="rotate(292.5)"/>
+        <rect x="-6" y="-125" width="12" height="125" rx="6" transform="rotate(337.5)"/>
+      </g>
+      <!-- outer dots -->
+      <g fill="#0FA285">
+        <circle cx="0" cy="-205" r="8"/>
+        <circle cx="145" cy="-145" r="8"/>
+        <circle cx="205" cy="0" r="8"/>
+        <circle cx="145" cy="145" r="8"/>
+        <circle cx="0" cy="205" r="8"/>
+        <circle cx="-145" cy="145" r="8"/>
+        <circle cx="-205" cy="0" r="8"/>
+        <circle cx="-145" cy="-145" r="8"/>
+      </g>
+      <!-- center cut -->
+      <circle cx="0" cy="0" r="12" fill="#123524"/>
+    </g>
+  </g>
+  <rect x="505" y="352" width="4" height="314" fill="#12CFA5" opacity="0.95"/>
+  <text x="565" y="525" fill="#F4F1EA" font-family="Arial, Helvetica, sans-serif" font-size="114" font-weight="700" letter-spacing="7">METICULOUS</text>
+  <text x="565" y="613" fill="#12CFA5" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="500" letter-spacing="24">TECH</text>
+</svg>
