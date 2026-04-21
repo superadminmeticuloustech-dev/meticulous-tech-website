@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Python local server cache
+__pycache__/
+
+# Editor settings
+.vscode/
+.idea/
