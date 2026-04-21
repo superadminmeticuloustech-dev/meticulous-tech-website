@@ -1,0 +1,3 @@
+Cloudflare redeploy trigger
+Timestamp: 2026-04-21T08:27:00Z
+Reason: create a fresh normal commit after history rewrite so Cloudflare Git integration detects a new deployment.
