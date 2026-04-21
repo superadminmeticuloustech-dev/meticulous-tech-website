@@ -65,12 +65,21 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
+  gap: 0.75rem;
 }
 
-.brand-logo {
+.brand-icon {
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
   display: block;
-  width: min(320px, 48vw);
-  height: auto;
+}
+
+.brand-text {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--text);
 }
 
 .site-nav {
@@ -345,13 +354,25 @@ p {
 }
 
 .footer-brand {
-  display: grid;
-  gap: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .footer-logo {
-  width: min(260px, 60vw);
-  height: auto;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  display: block;
+}
+
+.footer-brand-copy {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.footer-brand-copy p {
+  margin: 0;
 }
 
 .footer-links {
@@ -394,8 +415,8 @@ p {
     display: inline-flex;
   }
 
-  .brand-logo {
-    width: min(250px, 58vw);
+  .brand-text {
+    font-size: 0.98rem;
   }
 
   .hero-mark-wrap {
